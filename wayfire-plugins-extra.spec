@@ -8,6 +8,7 @@ Summary:        Additional plugins for Wayfire
 License:        MIT
 URL:            https://github.com/WayfireWM/wayfire-plugins-extra
 Source0:        https://github.com/WayfireWM/wayfire-plugins-extra/releases/download/v%{version}/%{name}-%{version}.tar.xz
+Patch0:         compile-fix.patch
 
 BuildRequires:  pkgconfig(libglvnd)
 BuildRequires:  meson
