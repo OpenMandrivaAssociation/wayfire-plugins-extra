@@ -27,7 +27,9 @@ The plugins that come here are plugins that have external dependencies, for ex. 
 %autosetup -p1
 
 %build
-%meson
+%meson \
+        -Denable_windecor=true \
+        -Denable_wayfire_shadows=true
 %meson_build
 
 %install
