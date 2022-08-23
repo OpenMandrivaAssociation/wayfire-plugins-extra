@@ -1,9 +1,8 @@
 %define _disable_ld_no_undefined 1
-%define git 20220531
 
 Name:           wayfire-plugins-extra
 Version:        0.7.0
-Release:        1.%{git}.1
+Release:        1
 Summary:        Additional plugins for Wayfire
 License:        MIT
 URL:            https://github.com/WayfireWM/wayfire-plugins-extra
