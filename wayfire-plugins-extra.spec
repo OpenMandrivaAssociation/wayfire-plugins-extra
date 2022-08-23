@@ -15,6 +15,7 @@ BuildRequires:  meson
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(giomm-2.4)
 BuildRequires:  pkgconfig(gtkmm-3.0)
+BuildRequires:  pkgconfig(librsvg-2.0)
 BuildRequires:  pkgconfig(wayfire)
 BuildRequires:  pkgconfig(wf-config)
 BuildRequires:  pkgconfig(wlroots)
