@@ -29,8 +29,8 @@ The plugins that come here are plugins that have external dependencies, for ex. 
 
 %build
 %meson \
-        -Denable_windecor=true \
-        -Denable_wayfire_shadows=true
+        -Denable_windecor=true
+# can be enabled in post 0.7.0 release -Denable_wayfire_shadows=true
 %meson_build
 
 %install
