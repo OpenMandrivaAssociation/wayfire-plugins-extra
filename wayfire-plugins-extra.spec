@@ -2,7 +2,7 @@
 
 Name:           wayfire-plugins-extra
 Version:        0.7.5
-Release:        1
+Release:        2
 Summary:        Additional plugins for Wayfire
 License:        MIT
 URL:            https://github.com/WayfireWM/wayfire-plugins-extra
