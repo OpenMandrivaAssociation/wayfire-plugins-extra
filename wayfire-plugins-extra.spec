@@ -1,7 +1,7 @@
 %define _disable_ld_no_undefined 1
 
 Name:           wayfire-plugins-extra
-Version:        0.9.0
+Version:        0.10.0
 Release:        1
 Summary:        Additional plugins for Wayfire
 License:        MIT
@@ -19,7 +19,7 @@ BuildRequires:  pkgconfig(librsvg-2.0)
 BuildRequires:  pkgconfig(nlohmann_json)
 BuildRequires:  pkgconfig(wayfire)
 BuildRequires:  pkgconfig(wf-config)
-BuildRequires:  pkgconfig(wlroots)
+BuildRequires:  pkgconfig(wlroots-0.19)
 Requires:       wayfire
 
 %description
