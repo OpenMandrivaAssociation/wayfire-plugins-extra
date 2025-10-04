@@ -46,5 +46,3 @@ The plugins that come here are plugins that have external dependencies, for ex. 
 %doc README.md
 %{_libdir}/wayfire/*.so
 %{_datadir}/wayfire/metadata/*.xml
-%{_datadir}/wayfire/icons/plugin-windecor.svg
-%{_datadir}/wayfire/windecor/executable.svg
