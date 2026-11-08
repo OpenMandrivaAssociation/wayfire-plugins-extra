@@ -10,6 +10,7 @@ Source0:        https://github.com/WayfireWM/wayfire-plugins-extra/releases/down
 
 BuildRequires:  pkgconfig(libglvnd)
 BuildRequires:  meson
+BuildRequires:  git
 BuildRequires:  boost-devel
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(giomm-2.4)
