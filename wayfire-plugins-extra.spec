@@ -30,10 +30,10 @@ The plugins that come here are plugins that have external dependencies, for ex. 
 
 %build
 %meson \
-         -Denable_pixdecor=true \
-         -Denable_filters=true \
-         -Denable_wayfire_shadows=true \
-         -Denable_focus_request=true
+         -Dpixdecor=true \
+         -Dfilters=true \
+         -Dwayfire_shadows=true \
+         -Dfocus_request=true
 %meson_build
 
 %install
