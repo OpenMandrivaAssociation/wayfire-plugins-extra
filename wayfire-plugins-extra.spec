@@ -8,7 +8,7 @@ License:        MIT
 URL:            https://github.com/WayfireWM/wayfire-plugins-extra
 Source0:        https://github.com/WayfireWM/wayfire-plugins-extra/releases/download/v%{version}/%{name}-%{version}.tar.xz
 
-Source1:         https://github.com/timgott/wayfire-shadows/archive/wayfire-shadows4bfdbbf1abe40519183b9a1e1648a732bc656f13.tar.gz
+Source1:         https://github.com/timgott/wayfire-shadows/archive/wayfire-shadows-4bfdbbf1abe40519183b9a1e1648a732bc656f13.tar.gz
 Source2:         https://gitlab.com/wayfireplugins/focus-request/-/archive/focus-request-b5c5029f1a695bcd79e2fa0de615cd8028f64f62.tar.gz
 Source3:         https://github.com/soreau/pixdecor/archive/pixdecor-d74909d3056565a8f2cbfbc33c6951960d486e63.tar.gz
 Source4:         https://github.com/soreau/filters/archive/filters-ecfe09aa87e812cd11c13eff60414c106d5accef.tar.gz
