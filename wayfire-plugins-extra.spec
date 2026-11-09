@@ -16,13 +16,14 @@ Source4:         https://github.com/soreau/filters/archive/filters-ecfe09aa87e81
 # Try enable later
 #Source5:         https://github.com/dkondor/wstroke/archive/wstroke-95c390f072071071a202cde06b79026eb8691421.tar.gz
 
-BuildRequires:  pkgconfig(libglvnd)
 BuildRequires:  meson
 BuildRequires:  git
+BuildRequires:  gettext
 BuildRequires:  boost-devel
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(giomm-2.4)
 BuildRequires:  pkgconfig(gtkmm-3.0)
+BuildRequires:  pkgconfig(libglvnd)
 BuildRequires:  pkgconfig(librsvg-2.0)
 BuildRequires:  pkgconfig(nlohmann_json)
 BuildRequires:  pkgconfig(wayfire)
