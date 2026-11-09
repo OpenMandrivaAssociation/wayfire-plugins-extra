@@ -70,8 +70,9 @@ mv locale/ro/wf-plugin-fisheye.po locale/ro/LC_MESSAGES/
 
 %install
 %meson_install
+%find_lang %{name} --all-name
 
-%files
+%files -f %{name}.lang
 %license LICENSE
 %doc README.md
 %{_libdir}/wayfire/*.so
