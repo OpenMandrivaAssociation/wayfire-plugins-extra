@@ -38,14 +38,25 @@ The plugins that come here are plugins that have external dependencies, for ex. 
 %autosetup -p1
 
 mkdir -p subprojects
-tar -xJf %{SOURCE1} -C subprojects
-tar -xJf %{SOURCE2} -C subprojects
-tar -xJf %{SOURCE3} -C subprojects
-tar -xJf %{SOURCE4} -C subprojects
-#tar -xJf %{SOURCE5} -C subprojects
+
+tar -xzf %{SOURCE1} -C subprojects
+mv subprojects/wayfire-shadows-4bfdbbf1abe40519183b9a1e1648a732bc656f13 \
+   subprojects/wayfire-shadows
+
+tar -xzf %{SOURCE2} -C subprojects
+mv subprojects/focus-request-b5c5029f1a695bcd79e2fa0de615cd8028f64f62 \
+   subprojects/focus-request
+
+tar -xzf %{SOURCE3} -C subprojects
+mv subprojects/pixdecor-d74909d3056565a8f2cbfbc33c6951960d486e63 \
+   subprojects/pixdecor
+
+tar -xzf %{SOURCE4} -C subprojects
+mv subprojects/filters-ecfe09aa87e812cd11c13eff60414c106d5accef \
+   subprojects/filters
+
 rm -f subprojects/*.wrap
-# upstream ships locale/ro/wf-plugin-fisheye.po outside LC_MESSAGES, which makes
-# meson install it to a bogus /usr/share/locale/LC_MESSAGES path
+
 mv locale/ro/wf-plugin-fisheye.po locale/ro/LC_MESSAGES/
 
 %build
